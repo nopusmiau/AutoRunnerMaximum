@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: bad7bbbdaab3bfd4e9197fe3bc919dba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 474848998096603428
+    second: basicAnim2_0
+  - first:
+      213: -8267920071298455402
+    second: basicAnim2_1
+  - first:
+      213: 6642007170220940873
+    second: basicAnim2_2
+  - first:
+      213: 688566360269660351
+    second: basicAnim2_3
+  - first:
+      213: -1800637702060276214
+    second: basicAnim2_4
+  - first:
+      213: -8101280594187313031
+    second: basicAnim2_5
+  - first:
+      213: -1804067799449118661
+    second: basicAnim2_6
+  - first:
+      213: 9044031739619490664
+    second: basicAnim2_7
+  - first:
+      213: -6433152882727670911
+    second: basicAnim2_8
+  - first:
+      213: -5462230585626313003
+    second: basicAnim2_9
+  - first:
+      213: -6359220894349523354
+    second: basicAnim2_10
+  - first:
+      213: -1848823829433672754
+    second: basicAnim2_11
+  - first:
+      213: -4791790348786815113
+    second: basicAnim2_12
+  - first:
+      213: 5355990038965319262
+    second: basicAnim2_13
+  - first:
+      213: 6065676238658813025
+    second: basicAnim2_14
+  - first:
+      213: 566322321415528751
+    second: basicAnim2_15
+  - first:
+      213: -1683730010577299622
+    second: basicAnim2_16
+  - first:
+      213: 4989611671884907142
+    second: basicAnim2_17
+  - first:
+      213: 3859483057148954129
+    second: basicAnim2_18
+  - first:
+      213: 5346173887073451602
+    second: basicAnim2_19
+  - first:
+      213: -3393872535113953931
+    second: basicAnim2_20
+  - first:
+      213: 7952292426372828323
+    second: basicAnim2_21
+  - first:
+      213: -5245230051769702163
+    second: basicAnim2_22
+  - first:
+      213: -6494350418646121730
+    second: basicAnim2_23
+  - first:
+      213: 4903680301438045458
+    second: basicAnim2_24
+  - first:
+      213: -6956024133279971160
+    second: basicAnim2_25
+  - first:
+      213: -5607223838960562022
+    second: basicAnim2_26
+  - first:
+      213: 7759490448232238657
+    second: basicAnim2_27
+  - first:
+      213: 4268315664787474738
+    second: basicAnim2_28
+  - first:
+      213: -7557301127658820472
+    second: basicAnim2_29
+  - first:
+      213: 7908879209277761189
+    second: basicAnim2_30
+  - first:
+      213: -8135597620422524720
+    second: basicAnim2_31
+  - first:
+      213: -1486501337312802131
+    second: basicAnim2_32
+  - first:
+      213: 7225163900862294202
+    second: basicAnim2_33
+  - first:
+      213: 6504576216946593312
+    second: basicAnim2_34
+  - first:
+      213: 1255497073550327909
+    second: basicAnim2_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: basicAnim2_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 430
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4298f7dd5a0079600800000000000000
+      internalID: 474848998096603428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 430
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698eeee1082724d80800000000000000
+      internalID: -8267920071298455402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 430
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94edd9894562d2c50800000000000000
+      internalID: 6642007170220940873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 430
+        width: 66
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0282cd4774e8900800000000000000
+      internalID: 688566360269660351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 430
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a068587dc89d207e0800000000000000
+      internalID: -1800637702060276214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_5
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 430
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97023b5d838729f80800000000000000
+      internalID: -8101280594187313031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 346
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b385d1f05e9a6f6e0800000000000000
+      internalID: -1804067799449118661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 346
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bb06923fad28d70800000000000000
+      internalID: 9044031739619490664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_8
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 346
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bac379989d8b6a0800000000000000
+      internalID: -6433152882727670911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 346
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de3876f8324234b0800000000000000
+      internalID: -5462230585626313003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 346
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6660e080a428fb7a0800000000000000
+      internalID: -6359220894349523354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 346
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb145ac588a756e0800000000000000
+      internalID: -1848823829433672754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 261
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77faa66d014208db0800000000000000
+      internalID: -4791790348786815113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 263
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56fe0d209c445a40800000000000000
+      internalID: 5355990038965319262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 263
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c39c7d66c9d2450800000000000000
+      internalID: 6065676238658813025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 261
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21e85c962bfbd700800000000000000
+      internalID: 566322321415528751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 263
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5710e5e97032a8e0800000000000000
+      internalID: -1683730010577299622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 263
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682c7d52169ae3540800000000000000
+      internalID: 4989611671884907142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deflect1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 177
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116800e5463af8530800000000000000
+      internalID: 3859483057148954129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deflect2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 177
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e7b7633dc613a40800000000000000
+      internalID: 5346173887073451602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deflect3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 177
+        width: 36
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d049b29ea86e0d0800000000000000
+      internalID: -3393872535113953931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deflect4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 177
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac4bf724d73c5e60800000000000000
+      internalID: 7952292426372828323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deflect5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 177
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8201fee033537b0800000000000000
+      internalID: -5245230051769702163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deflect6
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 177
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef240b9e3be6fd5a0800000000000000
+      internalID: -6494350418646121730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 92
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d8b4bd04f5d0440800000000000000
+      internalID: 4903680301438045458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 92
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a88dc6c7ec377f90800000000000000
+      internalID: -6956024133279971160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 92
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9057a670a32f22b0800000000000000
+      internalID: -5607223838960562022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_27
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 92
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e4bec737f3fab60800000000000000
+      internalID: 7759490448232238657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 92
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23984ec8b7a1c3b30800000000000000
+      internalID: 4268315664787474738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_29
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 92
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cac392aa21f1790800000000000000
+      internalID: -7557301127658820472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a62970ecbbf1cd60800000000000000
+      internalID: 7908879209277761189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_31
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 7
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0c337811d881f80800000000000000
+      internalID: -8135597620422524720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_32
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 7
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daac357d8e2ee5be0800000000000000
+      internalID: -1486501337312802131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_33
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 7
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab86fda8940f44460800000000000000
+      internalID: 7225163900862294202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 7
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e4e894b95e44a50800000000000000
+      internalID: 6504576216946593312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basicAnim2_35
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 7
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560828dbfeb6c6110800000000000000
+      internalID: 1255497073550327909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa9ed1fabcc0fcbcaa59497809381ddc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Deflect1: 3859483057148954129
+      Deflect2: 5346173887073451602
+      Deflect3: -3393872535113953931
+      Deflect4: 7952292426372828323
+      Deflect5: -5245230051769702163
+      Deflect6: -6494350418646121730
+      basicAnim2_0: 474848998096603428
+      basicAnim2_1: -8267920071298455402
+      basicAnim2_10: -6359220894349523354
+      basicAnim2_11: -1848823829433672754
+      basicAnim2_12: -4791790348786815113
+      basicAnim2_13: 5355990038965319262
+      basicAnim2_14: 6065676238658813025
+      basicAnim2_15: 566322321415528751
+      basicAnim2_16: -1683730010577299622
+      basicAnim2_17: 4989611671884907142
+      basicAnim2_2: 6642007170220940873
+      basicAnim2_24: 4903680301438045458
+      basicAnim2_25: -6956024133279971160
+      basicAnim2_26: -5607223838960562022
+      basicAnim2_27: 7759490448232238657
+      basicAnim2_28: 4268315664787474738
+      basicAnim2_29: -7557301127658820472
+      basicAnim2_3: 688566360269660351
+      basicAnim2_30: 7908879209277761189
+      basicAnim2_31: -8135597620422524720
+      basicAnim2_32: -1486501337312802131
+      basicAnim2_33: 7225163900862294202
+      basicAnim2_34: 6504576216946593312
+      basicAnim2_35: 1255497073550327909
+      basicAnim2_4: -1800637702060276214
+      basicAnim2_5: -8101280594187313031
+      basicAnim2_6: -1804067799449118661
+      basicAnim2_7: 9044031739619490664
+      basicAnim2_8: -6433152882727670911
+      basicAnim2_9: -5462230585626313003
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
