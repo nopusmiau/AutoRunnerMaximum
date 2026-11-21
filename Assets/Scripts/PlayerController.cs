@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
     public Animator _animator;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,7 +16,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //if(Input.GetKey(KeyCode.Space))
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Input.GetKey(KeyCode.D))
             StartRunning();
     }
 
