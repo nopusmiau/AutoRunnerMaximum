@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7221808607426401327}
   - component: {fileID: 4598575611488573697}
   - component: {fileID: 3403948972919049066}
+  - component: {fileID: 4497601992130969302}
   m_Layer: 0
   m_Name: Rock_Ledge
   m_TagString: Untagged
@@ -154,3 +155,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleMovement
   speed: 3.6
   destroyX: -15
+--- !u!114 &4497601992130969302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439902822679292648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d595d7161e110fa4a89973ac712cdef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleHit

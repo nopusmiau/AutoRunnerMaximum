@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5956186446875489923}
   - component: {fileID: 8063326347243495124}
   - component: {fileID: 8989249999229676618}
+  - component: {fileID: 3311555403776073398}
   m_Layer: 0
   m_Name: Rock_Lava
   m_TagString: Untagged
@@ -144,3 +145,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleMovement
   speed: 3.6
   destroyX: -15
+--- !u!114 &3311555403776073398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346782626899329744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d595d7161e110fa4a89973ac712cdef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleHit

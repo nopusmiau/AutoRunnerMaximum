@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 973863033912247972}
   - component: {fileID: 4070848934979052037}
   - component: {fileID: 3242203902103052312}
+  - component: {fileID: 6229844658912782007}
   m_Layer: 0
   m_Name: Rock_Boulder
   m_TagString: Untagged
@@ -144,3 +145,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleMovement
   speed: 3.6
   destroyX: -15
+--- !u!114 &6229844658912782007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932829978482499454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d595d7161e110fa4a89973ac712cdef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleHit
