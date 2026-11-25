@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(Input.GetKey(KeyCode.Space))
-        if (Input.GetKey(KeyCode.D))
+        // start running when space is pressed (the same key that starts the background and the obstacles)
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
             StartRunning();
     }
 

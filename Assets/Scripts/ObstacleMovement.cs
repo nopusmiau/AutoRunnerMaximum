@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// Put this on every obstacle prefab.
+// Put this on every obstacle prefab (the prefab needs a Rigidbody2D set to Kinematic).
 // It moves the obstacle to the left so it looks like the player is running towards it,
 // and deletes the obstacle when it has gone off the left side of the screen.
 public class ObstacleMovement : MonoBehaviour
@@ -11,10 +11,15 @@ public class ObstacleMovement : MonoBehaviour
     // when the obstacle goes past this x position it gets destroyed
     public float destroyX = -15f;
 
+    void Start()
+    {
+        // a Kinematic Rigidbody2D keeps moving with this speed and is not pulled down by gravity.
+        // We move it with the Rigidbody2D (and not the Transform) so the player can stand on it.
+        GetComponent<Rigidbody2D>().linearVelocity = Vector2.left * speed;
+    }
+
     void Update()
     {
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
-
         if (transform.position.x < destroyX)
         {
             Destroy(gameObject);

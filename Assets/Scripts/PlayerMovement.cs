@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 // Put this on the Player (the Player needs a Rigidbody2D, a BoxCollider2D and an Animator).
-// The ground object must have the tag "Ground".
+// The ground object must have the tag "Ground" and the stone prefabs the tag "Stone".
 //
 // Jump:  press Space, W or Up Arrow   -> to jump over the rocks
 // Slide: hold S or Down Arrow         -> to go under the floating ledge
@@ -97,9 +97,16 @@ public class PlayerMovement : MonoBehaviour
         box.offset = normalOffset;
     }
 
+    // the player can stand on the ground and also on top of a stone
+    // (if the player runs into the side of a stone, ObstacleHit ends the game)
+    private bool IsGroundOrStone(GameObject other)
+    {
+        return other.CompareTag("Ground") || other.CompareTag("Stone");
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (IsGroundOrStone(collision.gameObject))
         {
             isGrounded = true;
             animator.SetBool("isJumping", false);
@@ -108,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (IsGroundOrStone(collision.gameObject))
         {
             isGrounded = false;
         }
