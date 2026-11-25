@@ -13,6 +13,10 @@ public class PlayerMovement : MonoBehaviour
     // how strong the jump is (bigger number = higher and longer jump)
     public float jumpForce = 7.5f;
 
+    // if jump is pressed a little before landing, the game remembers it for this long (in seconds)
+    // and jumps as soon as the player touches the ground
+    public float jumpBufferTime = 0.2f;
+
     // how tall the collider is while sliding (0.5 = half as tall)
     public float slideHeight = 0.5f;
 
@@ -22,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded = false;
     private bool isSliding = false;
+
+    // counts down after jump is pressed, the jump can happen while it is above 0
+    private float jumpBufferTimer = 0f;
 
     // the normal collider size, so we can put it back after sliding
     private Vector2 normalSize;
@@ -46,11 +53,20 @@ public class PlayerMovement : MonoBehaviour
         bool slideHeld = Keyboard.current.sKey.isPressed
                       || Keyboard.current.downArrowKey.isPressed;
 
+        // remember the jump press for a short time
+        if (jumpPressed)
+        {
+            jumpBufferTimer = jumpBufferTime;
+        }
+
         // you can only jump when standing on the ground
-        if (jumpPressed && isGrounded && !isSliding)
+        // (because of the timer, pressing jump just before landing also works)
+        if (jumpBufferTimer > 0 && isGrounded && !isSliding)
         {
             Jump();
         }
+
+        jumpBufferTimer -= Time.deltaTime;
 
         // you can only start sliding when on the ground
         if (slideHeld && isGrounded && !isSliding)
@@ -70,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
         // give the player an upward speed, gravity will pull it back down
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         isGrounded = false;
+        jumpBufferTimer = 0;
         animator.SetBool("isJumping", true);
     }
 
