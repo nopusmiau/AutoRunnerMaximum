@@ -15,13 +15,20 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(Input.GetKey(KeyCode.Space))
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.Space) )
             StartRunning();
+        if (Input.GetKey(KeyCode.S)){
+            _animator.SetBool("isSliding",true);
+        }
+        else{
+            _animator.SetBool("isSliding",false);
+        }
+        
     }
 
     private void StartRunning()
     {
         _animator.SetBool("isRunning",true);
     }
+
 }
