@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 // Put this on the Player (the Player needs a Rigidbody2D, a BoxCollider2D and an Animator).
-// The ground object must have the tag "Ground" and the stone prefabs the tag "Stone".
+// The ground object must have the tag "Ground" and the obstacles you can stand on the tag "Platform".
 //
 // Jump:  press Space, W or Up Arrow   -> to jump over the rocks
 // Slide: hold S or Down Arrow         -> to go under the floating ledge
@@ -24,7 +24,10 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D box;
     private Animator animator;
 
-    private bool isGrounded = false;
+    // how many ground or platform objects the player is standing on right now.
+    // We count them because the player can touch two at the same time
+    // (for example the ground and the start of a ramp).
+    private int groundContacts = 0;
     private bool isSliding = false;
 
     // counts down after jump is pressed, the jump can happen while it is above 0
@@ -52,6 +55,9 @@ public class PlayerMovement : MonoBehaviour
 
         bool slideHeld = Keyboard.current.sKey.isPressed
                       || Keyboard.current.downArrowKey.isPressed;
+
+        // the player is on the ground if it touches at least one ground or platform object
+        bool isGrounded = groundContacts > 0;
 
         // remember the jump press for a short time
         if (jumpPressed)
@@ -85,7 +91,6 @@ public class PlayerMovement : MonoBehaviour
     {
         // give the player an upward speed, gravity will pull it back down
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        isGrounded = false;
         jumpBufferTimer = 0;
         animator.SetBool("isJumping", true);
     }
@@ -114,27 +119,27 @@ public class PlayerMovement : MonoBehaviour
         box.offset = normalOffset;
     }
 
-    // the player can stand on the ground and also on top of a stone
-    // (if the player runs into the side of a stone, ObstacleHit ends the game)
-    private bool IsGroundOrStone(GameObject other)
+    // the player can stand on the ground and also on top of a wall, block, bridge or ramp
+    // (if the player runs into the side of a wall, SolidObstacle ends the game)
+    private bool IsGroundOrPlatform(GameObject other)
     {
-        return other.CompareTag("Ground") || other.CompareTag("Stone");
+        return other.CompareTag("Ground") || other.CompareTag("Platform");
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (IsGroundOrStone(collision.gameObject))
+        if (IsGroundOrPlatform(collision.gameObject))
         {
-            isGrounded = true;
+            groundContacts++;
             animator.SetBool("isJumping", false);
         }
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (IsGroundOrStone(collision.gameObject))
+        if (IsGroundOrPlatform(collision.gameObject))
         {
-            isGrounded = false;
+            groundContacts--;
         }
     }
 }
