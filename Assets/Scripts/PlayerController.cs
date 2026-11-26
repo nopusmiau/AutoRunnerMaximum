@@ -18,10 +18,12 @@ public class PlayerController : MonoBehaviour
         // start running when space is pressed (the same key that starts the background and the obstacles)
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
             StartRunning();
+        
     }
 
     private void StartRunning()
     {
         _animator.SetBool("isRunning",true);
     }
+
 }
