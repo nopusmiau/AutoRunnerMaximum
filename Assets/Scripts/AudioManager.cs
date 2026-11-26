@@ -4,6 +4,7 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public AudioMixer mixer;
+    public AudioSource[] audioSources;
 
     public void SetMusicVolume(float volume)
     {
@@ -15,5 +16,18 @@ public class AudioManager : MonoBehaviour
     {
         mixer.SetFloat("SFXVolume",
             Mathf.Log10(Mathf.Max(volume, 0.0001f)) * 20f);
+    }
+
+    void Awake()
+    {
+        audioSources = GetComponentsInChildren<AudioSource>();
+    }
+
+    public void PlaySound(int soundIndex)
+    {
+        if (soundIndex >= 0 && soundIndex < audioSources.Length)
+        {
+            audioSources[soundIndex].Play();
+        }
     }
 }

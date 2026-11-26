@@ -7,7 +7,6 @@ public class LoopBG : MonoBehaviour
     
     public float loopSpeed;
     public Renderer renderer;
-    private bool isLoop=false;
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,9 +18,6 @@ public class LoopBG : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
-            isLoop = true;
-        if(isLoop)
             StartRunning();
     }
 
