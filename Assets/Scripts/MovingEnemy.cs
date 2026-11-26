@@ -22,6 +22,10 @@ public class MovingEnemy : MonoBehaviour
     [Header("Ground")]
     public float groundY = 0f;
 
+    [Header("Collision Damage")]
+    public int collisionDamage = 1;
+    public float damageCooldown = 1f;
+
     [Header("Cleanup")]
     public float destroyX = -15f;
 
@@ -32,6 +36,8 @@ public class MovingEnemy : MonoBehaviour
     private float baseY;
     private float targetY;
     private float targetX;
+
+    private float nextDamageTime;
 
     private enum EnemyState
     {
@@ -157,5 +163,20 @@ public class MovingEnemy : MonoBehaviour
             Vector2.left * chargeSpeed * Time.deltaTime,
             Space.World
         );
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (Time.time < nextDamageTime)
+            return;
+
+        EnemyHealth playerHealth = collision.gameObject.GetComponentInParent<EnemyHealth>();
+
+        if (playerHealth != null)
+        {
+            playerHealth.TakeDamage(collisionDamage);
+
+            nextDamageTime = Time.time + damageCooldown;
+        }
     }
 }

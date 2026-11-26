@@ -123,10 +123,30 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (IsGroundOrStone(collision.gameObject))
+        CheckGroundCollision(collision);
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        CheckGroundCollision(collision);
+    }
+
+    private void CheckGroundCollision(Collision2D collision)
+    {
+        if (!IsGroundOrStone(collision.gameObject))
+            return;
+
+        foreach (ContactPoint2D contact in collision.contacts)
         {
-            isGrounded = true;
-            animator.SetBool("isJumping", false);
+            // Only count contact with an upward-facing surface
+            if (contact.normal.y > 0.5f &&
+                rb.linearVelocity.y <= 0.1f)
+            {
+                isGrounded = true;
+
+                animator.SetBool("isJumping", false);
+                return;
+            }
         }
     }
 
