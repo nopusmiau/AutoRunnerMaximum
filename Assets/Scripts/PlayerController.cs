@@ -17,12 +17,6 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) )
             StartRunning();
-        if (Input.GetKey(KeyCode.S)){
-            _animator.SetBool("isSliding",true);
-        }
-        else{
-            _animator.SetBool("isSliding",false);
-        }
         
     }
 
