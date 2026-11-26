@@ -142,5 +142,5 @@ MonoBehaviour:
   heightChange: 0.15
   movementChangeSpeed: 3
   chargeSpeed: 10
-  groundY: -2.88
+  groundY: -7
   destroyX: -10
