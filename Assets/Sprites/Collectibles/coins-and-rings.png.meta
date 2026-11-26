@@ -1,0 +1,3369 @@
+fileFormatVersion: 2
+guid: c6bfbb5e0463b3a4c94155416c3282d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6050948502243561536
+    second: coins-and-rings_0
+  - first:
+      213: 8435684792102914221
+    second: coins-and-rings_1
+  - first:
+      213: -3468692748216175685
+    second: coins-and-rings_2
+  - first:
+      213: -8590501643108891705
+    second: coins-and-rings_3
+  - first:
+      213: 4997579417429296476
+    second: coins-and-rings_4
+  - first:
+      213: -4645818413491406241
+    second: coins-and-rings_5
+  - first:
+      213: 6389197032595920548
+    second: coins-and-rings_6
+  - first:
+      213: 7201017160207697560
+    second: coins-and-rings_7
+  - first:
+      213: -668806709405061254
+    second: coins-and-rings_8
+  - first:
+      213: -3089838830581904741
+    second: coins-and-rings_9
+  - first:
+      213: 7320230023536529813
+    second: coins-and-rings_10
+  - first:
+      213: -7995224542315666592
+    second: coins-and-rings_11
+  - first:
+      213: 8422478475088531098
+    second: coins-and-rings_12
+  - first:
+      213: -5303596984005452666
+    second: coins-and-rings_13
+  - first:
+      213: 9119340474363916373
+    second: coins-and-rings_14
+  - first:
+      213: -4866594939312658755
+    second: coins-and-rings_15
+  - first:
+      213: 7918030300263746883
+    second: coins-and-rings_16
+  - first:
+      213: 8503228170135668907
+    second: coins-and-rings_17
+  - first:
+      213: 5992010403228151974
+    second: coins-and-rings_18
+  - first:
+      213: 369581741124891648
+    second: coins-and-rings_19
+  - first:
+      213: -6281680243617549429
+    second: coins-and-rings_20
+  - first:
+      213: -3055265085407741208
+    second: coins-and-rings_21
+  - first:
+      213: 7644862647222607538
+    second: coins-and-rings_22
+  - first:
+      213: -73313338323456740
+    second: coins-and-rings_23
+  - first:
+      213: 1839101199374202408
+    second: coins-and-rings_24
+  - first:
+      213: -7061948476850852458
+    second: coins-and-rings_25
+  - first:
+      213: -6039315652718008736
+    second: coins-and-rings_26
+  - first:
+      213: -391753026455256172
+    second: coins-and-rings_27
+  - first:
+      213: -9361417913764848
+    second: coins-and-rings_28
+  - first:
+      213: 1064322614050562128
+    second: coins-and-rings_29
+  - first:
+      213: 1455552419117416046
+    second: coins-and-rings_30
+  - first:
+      213: 7693800055123886816
+    second: coins-and-rings_31
+  - first:
+      213: 2708668741766618065
+    second: coins-and-rings_32
+  - first:
+      213: 3541738377184900373
+    second: coins-and-rings_33
+  - first:
+      213: -1710901025530431835
+    second: coins-and-rings_34
+  - first:
+      213: 1387868618132400048
+    second: coins-and-rings_35
+  - first:
+      213: 5049455916664167938
+    second: coins-and-rings_36
+  - first:
+      213: -856225467357945459
+    second: coins-and-rings_37
+  - first:
+      213: -2887032300055269082
+    second: coins-and-rings_38
+  - first:
+      213: 1927531570086437594
+    second: coins-and-rings_39
+  - first:
+      213: 4068588936610274472
+    second: coins-and-rings_40
+  - first:
+      213: -4413203193740406451
+    second: coins-and-rings_41
+  - first:
+      213: 2364223481562162895
+    second: coins-and-rings_42
+  - first:
+      213: 1348973857973883620
+    second: coins-and-rings_43
+  - first:
+      213: -7519344856294157922
+    second: coins-and-rings_44
+  - first:
+      213: -5895318935620148033
+    second: coins-and-rings_45
+  - first:
+      213: 4176452281799072273
+    second: coins-and-rings_46
+  - first:
+      213: 251729707795034885
+    second: coins-and-rings_47
+  - first:
+      213: -1423611669322696754
+    second: coins-and-rings_48
+  - first:
+      213: -8936865356315466511
+    second: coins-and-rings_49
+  - first:
+      213: 5191295925917401418
+    second: coins-and-rings_50
+  - first:
+      213: 6303005196270549211
+    second: coins-and-rings_51
+  - first:
+      213: 5039537445721810598
+    second: coins-and-rings_52
+  - first:
+      213: -3819380141718475894
+    second: coins-and-rings_53
+  - first:
+      213: -5339350110178178113
+    second: coins-and-rings_54
+  - first:
+      213: 6386990716783376549
+    second: coins-and-rings_55
+  - first:
+      213: 4213660029269326935
+    second: coins-and-rings_56
+  - first:
+      213: -3298542509101329119
+    second: coins-and-rings_57
+  - first:
+      213: -8753688971172782002
+    second: coins-and-rings_58
+  - first:
+      213: 2323794992123406863
+    second: coins-and-rings_59
+  - first:
+      213: -6207919880207026977
+    second: coins-and-rings_60
+  - first:
+      213: 2298841144787048519
+    second: coins-and-rings_61
+  - first:
+      213: 4288432215161598612
+    second: coins-and-rings_62
+  - first:
+      213: 1178360971499487258
+    second: coins-and-rings_63
+  - first:
+      213: 3345095657644083989
+    second: coins-and-rings_64
+  - first:
+      213: -8646864881740704053
+    second: coins-and-rings_65
+  - first:
+      213: -6342941802979610328
+    second: coins-and-rings_66
+  - first:
+      213: 6938855082212947903
+    second: coins-and-rings_67
+  - first:
+      213: -8769839830570348038
+    second: coins-and-rings_68
+  - first:
+      213: -2730622018264620010
+    second: coins-and-rings_69
+  - first:
+      213: 4492210506350304716
+    second: coins-and-rings_70
+  - first:
+      213: -4134732240347313122
+    second: coins-and-rings_71
+  - first:
+      213: 1724883758969920087
+    second: coins-and-rings_72
+  - first:
+      213: 5411782201584834328
+    second: coins-and-rings_73
+  - first:
+      213: -1871653495775993406
+    second: coins-and-rings_74
+  - first:
+      213: -2635067993455288430
+    second: coins-and-rings_75
+  - first:
+      213: 317302743133637240
+    second: coins-and-rings_76
+  - first:
+      213: -5522993563980747046
+    second: coins-and-rings_77
+  - first:
+      213: 4093884931349873921
+    second: coins-and-rings_78
+  - first:
+      213: 3598007056276455599
+    second: coins-and-rings_79
+  - first:
+      213: 5657198792106090550
+    second: coins-and-rings_80
+  - first:
+      213: 1225526380664170732
+    second: coins-and-rings_81
+  - first:
+      213: -3373686753759678672
+    second: coins-and-rings_82
+  - first:
+      213: -7249378259377983249
+    second: coins-and-rings_83
+  - first:
+      213: 5336708642748289356
+    second: coins-and-rings_84
+  - first:
+      213: 4943468499227044362
+    second: coins-and-rings_85
+  - first:
+      213: -1776986394348399033
+    second: coins-and-rings_86
+  - first:
+      213: -2774875563894687365
+    second: coins-and-rings_87
+  - first:
+      213: 4426260435938563877
+    second: coins-and-rings_88
+  - first:
+      213: -8825886692100659249
+    second: coins-and-rings_89
+  - first:
+      213: 53020580691922287
+    second: coins-and-rings_90
+  - first:
+      213: 2864983508247640704
+    second: coins-and-rings_91
+  - first:
+      213: 8284289463562176175
+    second: coins-and-rings_92
+  - first:
+      213: 529843657412464350
+    second: coins-and-rings_93
+  - first:
+      213: -2283166603307194752
+    second: coins-and-rings_94
+  - first:
+      213: -1184598451725780064
+    second: coins-and-rings_95
+  - first:
+      213: 6974853917896387917
+    second: coins-and-rings_96
+  - first:
+      213: -8617944331295589358
+    second: coins-and-rings_97
+  - first:
+      213: -5612470669104099355
+    second: coins-and-rings_98
+  - first:
+      213: 6747942772709094543
+    second: coins-and-rings_99
+  - first:
+      213: -2465144592889680200
+    second: coins-and-rings_100
+  - first:
+      213: 355972919132354418
+    second: coins-and-rings_101
+  - first:
+      213: 5985649457781832871
+    second: coins-and-rings_102
+  - first:
+      213: -201087634942169737
+    second: coins-and-rings_103
+  - first:
+      213: 1557999946968511648
+    second: coins-and-rings_104
+  - first:
+      213: 1681878703117038063
+    second: coins-and-rings_105
+  - first:
+      213: 5377617501667363534
+    second: coins-and-rings_106
+  - first:
+      213: 2288285411910337589
+    second: coins-and-rings_107
+  - first:
+      213: 7534375847050487057
+    second: coins-and-rings_108
+  - first:
+      213: -3728394336534519952
+    second: coins-and-rings_109
+  - first:
+      213: 5400398338582518276
+    second: coins-and-rings_110
+  - first:
+      213: 3859161990802850846
+    second: coins-and-rings_111
+  - first:
+      213: 1343925172120368617
+    second: coins-and-rings_112
+  - first:
+      213: 5770298968631843769
+    second: coins-and-rings_113
+  - first:
+      213: 3975733199058878065
+    second: coins-and-rings_114
+  - first:
+      213: 6334596940626873002
+    second: coins-and-rings_115
+  - first:
+      213: 8667152439220071380
+    second: coins-and-rings_116
+  - first:
+      213: -297981422769966697
+    second: coins-and-rings_117
+  - first:
+      213: -3381701222739910077
+    second: coins-and-rings_118
+  - first:
+      213: -7618098603164609577
+    second: coins-and-rings_119
+  - first:
+      213: -8451217646302377286
+    second: coins-and-rings_120
+  - first:
+      213: -5472367216333019674
+    second: coins-and-rings_121
+  - first:
+      213: -5911787754022942596
+    second: coins-and-rings_122
+  - first:
+      213: 3396212157189840056
+    second: coins-and-rings_123
+  - first:
+      213: 3813880084498222518
+    second: coins-and-rings_124
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coins-and-rings_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 573
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040d86e7a9949f350800000000000000
+      internalID: 6050948502243561536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 513
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8857ecf92911570800000000000000
+      internalID: 8435684792102914221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 573
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3f99bc25abcdfc0800000000000000
+      internalID: -3468692748216175685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 513
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3c510254868c880800000000000000
+      internalID: -8590501643108891705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_4
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 573
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c554da87008fa5540800000000000000
+      internalID: 4997579417429296476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 513
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a30ec74ccb68fb0800000000000000
+      internalID: -4645818413491406241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 573
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a61cd789dcfaa850800000000000000
+      internalID: 6389197032595920548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 513
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8960caf54f62fe360800000000000000
+      internalID: 7201017160207697560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 514
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f638e57dbe7b6f0800000000000000
+      internalID: -668806709405061254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 573
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a05f944ffae15d0800000000000000
+      internalID: -3089838830581904741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 573
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5915b031c6ea69560800000000000000
+      internalID: 7320230023536529813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 573
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0632ac7a3a14b0190800000000000000
+      internalID: -7995224542315666592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_12
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 573
+        width: 14
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e86048c87a2e470800000000000000
+      internalID: 8422478475088531098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_13
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 508
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c958884a6d566b0800000000000000
+      internalID: -5303596984005452666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_14
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 508
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550bd4858d76e8e70800000000000000
+      internalID: 9119340474363916373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 454
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db62e80efa1667cb0800000000000000
+      internalID: -4866594939312658755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 514
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d00084b9e72ed60800000000000000
+      internalID: 7918030300263746883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_17
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 512
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8080df7f8810670800000000000000
+      internalID: 8503228170135668907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_18
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 514
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0fbd6f6b5e72350800000000000000
+      internalID: 5992010403228151974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 454
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004383ba2a4012500800000000000000
+      internalID: 369581741124891648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 393
+        width: 58
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b833696a91df2d8a0800000000000000
+      internalID: -6281680243617549429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_21
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 454
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea3e91a7948995d0800000000000000
+      internalID: -3055265085407741208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_22
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 452
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be1b5cc212081a60800000000000000
+      internalID: 7644862647222607538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_23
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 453
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1daeef38e98bfef0800000000000000
+      internalID: -73313338323456740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_24
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 453
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826b1befbccc58910800000000000000
+      internalID: 1839101199374202408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_25
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 453
+        width: 14
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69da13fa64beefd90800000000000000
+      internalID: -7061948476850852458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_26
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 413
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0666949596a003ca0800000000000000
+      internalID: -6039315652718008736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 393
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4934372b2b6309af0800000000000000
+      internalID: -391753026455256172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 393
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014f7aa07ddbedff0800000000000000
+      internalID: -9361417913764848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_29
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 393
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05026e847cb35ce00800000000000000
+      internalID: 1064322614050562128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_30
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 392
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e347d9639233410800000000000000
+      internalID: 1455552419117416046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_31
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 393
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e24a8af26ed5ca60800000000000000
+      internalID: 7693800055123886816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_32
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 393
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db14379edf179520800000000000000
+      internalID: 2708668741766618065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_33
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 393
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51579730a48c62130800000000000000
+      internalID: 3541738377184900373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 317
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6386ff498a148e0800000000000000
+      internalID: -1710901025530431835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_35
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 317
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7a1baa723b24310800000000000000
+      internalID: 1387868618132400048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_36
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 317
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e13cd2765431640800000000000000
+      internalID: 5049455916664167938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_37
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 317
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81ac7259731e14f0800000000000000
+      internalID: -856225467357945459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_38
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 317
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62170245b633fe7d0800000000000000
+      internalID: -2887032300055269082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_39
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 317
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad26a5020c7ffba10800000000000000
+      internalID: 1927531570086437594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_40
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 317
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac5dbfd418867830800000000000000
+      internalID: 4068588936610274472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_41
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 317
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41db73d31721c2c0800000000000000
+      internalID: -4413203193740406451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_42
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 317
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc66624fab86fc020800000000000000
+      internalID: 2364223481562162895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_43
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 257
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e252df939488b210800000000000000
+      internalID: 1348973857973883620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_44
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 317
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e911de041bbe5a790800000000000000
+      internalID: -7519344856294157922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_45
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 257
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb42abca9ae9f2ea0800000000000000
+      internalID: -5895318935620148033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_46
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 317
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ad006f83db5f930800000000000000
+      internalID: 4176452281799072273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_47
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 257
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5033984e5d25e7300800000000000000
+      internalID: 251729707795034885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_48
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 317
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec77be7bab05e3ce0800000000000000
+      internalID: -1423611669322696754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_49
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 257
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f46257de40e9f380800000000000000
+      internalID: -8936865356315466511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_50
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 317
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a414d34d3203b0840800000000000000
+      internalID: 5191295925917401418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_51
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 257
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8b52dc4d5c87750800000000000000
+      internalID: 6303005196270549211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_52
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 317
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a627843b9800f540800000000000000
+      internalID: 5039537445721810598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_53
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 317
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b60be3ff5defac0800000000000000
+      internalID: -3819380141718475894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_54
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 317
+        width: 12
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb03672d51d6e5b0800000000000000
+      internalID: -5339350110178178113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_55
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 257
+        width: 17
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a83799973623a850800000000000000
+      internalID: 6386990716783376549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_56
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 257
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c3cd0c87de97a30800000000000000
+      internalID: 4213660029269326935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_57
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 257
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1255d7c70193932d0800000000000000
+      internalID: -3298542509101329119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_58
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 257
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40edfe7246a48680800000000000000
+      internalID: -8753688971172782002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_59
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 257
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ae85cbb37cf3020800000000000000
+      internalID: 2323794992123406863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_60
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 257
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4bc2a82c909d9a0800000000000000
+      internalID: -6207919880207026977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_61
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 257
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748951667df17ef10800000000000000
+      internalID: 2298841144787048519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_62
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 257
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4927c0ce062938b30800000000000000
+      internalID: 4288432215161598612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_63
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 257
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1049637f016a5010800000000000000
+      internalID: 1178360971499487258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 189
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bc39d07ca2c6e20800000000000000
+      internalID: 3345095657644083989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_65
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 129
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc69b0ff33a200880800000000000000
+      internalID: -8646864881740704053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_66
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 189
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821bc6a590859f7a0800000000000000
+      internalID: -6342941802979610328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_67
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 129
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb777330fe3cb4060800000000000000
+      internalID: 6938855082212947903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_68
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 189
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af158c183254b4680800000000000000
+      internalID: -8769839830570348038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_69
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 129
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6142a79edb1ea1ad0800000000000000
+      internalID: -2730622018264620010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_70
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 189
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd994f97a9875e30800000000000000
+      internalID: 4492210506350304716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_71
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 129
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c4eb42fea7e96c0800000000000000
+      internalID: -4134732240347313122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_72
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 189
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a1e34d3a400f710800000000000000
+      internalID: 1724883758969920087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_73
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 129
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817de3f4d338a1b40800000000000000
+      internalID: 5411782201584834328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_74
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 189
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c167a1ef0d8606e0800000000000000
+      internalID: -1871653495775993406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_75
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 129
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f98130f9b5e6bd0800000000000000
+      internalID: -2635067993455288430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_76
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 189
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87accbae929476400800000000000000
+      internalID: 317302743133637240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_77
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 129
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adea82a9d926a53b0800000000000000
+      internalID: -5522993563980747046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_78
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 189
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1050f6c97a660d830800000000000000
+      internalID: 4093884931349873921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_79
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 129
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa005b8ca50bee130800000000000000
+      internalID: 3598007056276455599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_80
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 129
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630a04b0458628e40800000000000000
+      internalID: 5657198792106090550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_81
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 189
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8ab5600c1f10110800000000000000
+      internalID: 1225526380664170732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_82
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 129
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fa6b2a5c14e21d0800000000000000
+      internalID: -3373686753759678672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_83
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 189
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0f557c1e8056b90800000000000000
+      internalID: -7249378259377983249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_84
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 129
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41d4c84c3ccf0a40800000000000000
+      internalID: 5336708642748289356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_85
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 189
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ae2ce886aba9440800000000000000
+      internalID: 4943468499227044362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_86
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 129
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746592a0a40e657e0800000000000000
+      internalID: -1776986394348399033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_87
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 189
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7935266069ad79d0800000000000000
+      internalID: -2774875563894687365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_88
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 129
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527db774a6c3d6d30800000000000000
+      internalID: 4426260435938563877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_89
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 189
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc72e79a0d6248580800000000000000
+      internalID: -8825886692100659249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_90
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 129
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d4dedefed5cb000800000000000000
+      internalID: 53020580691922287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_91
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 189
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08af378425772c720800000000000000
+      internalID: 2864983508247640704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_92
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 189
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa682240065b7f270800000000000000
+      internalID: 8284289463562176175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_93
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 189
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede409acff16a5700800000000000000
+      internalID: 529843657412464350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_94
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 62
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086e6de22109050e0800000000000000
+      internalID: -2283166603307194752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_95
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 62
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab38630cf57f8fe0800000000000000
+      internalID: -1184598451725780064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_96
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 62
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4da4781fa8abc060800000000000000
+      internalID: 6974853917896387917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_97
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 62
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cf80f5a49e66880800000000000000
+      internalID: -8617944331295589358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_98
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 62
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef40cf99af7c12b0800000000000000
+      internalID: -5612470669104099355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_99
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 62
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f847dfb133285ad50800000000000000
+      internalID: 6747942772709094543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_100
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 62
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bee5dcbd0c0acdd0800000000000000
+      internalID: -2465144592889680200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_101
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 62
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277fa82eb7ba0f400800000000000000
+      internalID: 355972919132354418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_102
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 62
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac7811f77c411350800000000000000
+      internalID: 5985649457781832871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_103
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 62
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d6c868cd7953df0800000000000000
+      internalID: -201087634942169737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_104
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 62
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4b22772b02f9510800000000000000
+      internalID: 1557999946968511648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_105
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 62
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1f59ef4cb375710800000000000000
+      internalID: 1681878703117038063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_106
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 62
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca8ecc30a221aa40800000000000000
+      internalID: 5377617501667363534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_107
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 62
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534cf91557f91cf10800000000000000
+      internalID: 2288285411910337589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_108
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 62
+        width: 15
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1152abff9ea7f8860800000000000000
+      internalID: 7534375847050487057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_109
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 62
+        width: 11
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f1844da15124cc0800000000000000
+      internalID: -3728394336534519952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_110
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2
+        width: 14
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a12d82da112fa40800000000000000
+      internalID: 5400398338582518276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_111
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e144e78426f7e8530800000000000000
+      internalID: 3859161990802850846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_112
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5b0f8d2d496a210800000000000000
+      internalID: 1343925172120368617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_113
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb9a11f658341050800000000000000
+      internalID: 5770298968631843769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_114
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17eb1abb744ac2730800000000000000
+      internalID: 3975733199058878065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_115
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa4759fa5209e750800000000000000
+      internalID: 6334596940626873002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_116
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db6fd11939e74870800000000000000
+      internalID: 8667152439220071380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_117
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 2
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791712a897b5ddbf0800000000000000
+      internalID: -297981422769966697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_118
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342651aa7a8c111d0800000000000000
+      internalID: -3381701222739910077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_119
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3597ecea3174690800000000000000
+      internalID: -7618098603164609577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_120
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba42a0c35e37ba80800000000000000
+      internalID: -8451217646302377286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_121
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e52af5b20f3e04b0800000000000000
+      internalID: -5472367216333019674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_122
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7845f51c5c15fda0800000000000000
+      internalID: -5911787754022942596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_123
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcd92b86f4c12f20800000000000000
+      internalID: 3396212157189840056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coins-and-rings_124
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 2
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd0474eabf9de430800000000000000
+      internalID: 3813880084498222518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      coins-and-rings_0: 6050948502243561536
+      coins-and-rings_1: 8435684792102914221
+      coins-and-rings_10: 7320230023536529813
+      coins-and-rings_100: -2465144592889680200
+      coins-and-rings_101: 355972919132354418
+      coins-and-rings_102: 5985649457781832871
+      coins-and-rings_103: -201087634942169737
+      coins-and-rings_104: 1557999946968511648
+      coins-and-rings_105: 1681878703117038063
+      coins-and-rings_106: 5377617501667363534
+      coins-and-rings_107: 2288285411910337589
+      coins-and-rings_108: 7534375847050487057
+      coins-and-rings_109: -3728394336534519952
+      coins-and-rings_11: -7995224542315666592
+      coins-and-rings_110: 5400398338582518276
+      coins-and-rings_111: 3859161990802850846
+      coins-and-rings_112: 1343925172120368617
+      coins-and-rings_113: 5770298968631843769
+      coins-and-rings_114: 3975733199058878065
+      coins-and-rings_115: 6334596940626873002
+      coins-and-rings_116: 8667152439220071380
+      coins-and-rings_117: -297981422769966697
+      coins-and-rings_118: -3381701222739910077
+      coins-and-rings_119: -7618098603164609577
+      coins-and-rings_12: 8422478475088531098
+      coins-and-rings_120: -8451217646302377286
+      coins-and-rings_121: -5472367216333019674
+      coins-and-rings_122: -5911787754022942596
+      coins-and-rings_123: 3396212157189840056
+      coins-and-rings_124: 3813880084498222518
+      coins-and-rings_13: -5303596984005452666
+      coins-and-rings_14: 9119340474363916373
+      coins-and-rings_15: -4866594939312658755
+      coins-and-rings_16: 7918030300263746883
+      coins-and-rings_17: 8503228170135668907
+      coins-and-rings_18: 5992010403228151974
+      coins-and-rings_19: 369581741124891648
+      coins-and-rings_2: -3468692748216175685
+      coins-and-rings_20: -6281680243617549429
+      coins-and-rings_21: -3055265085407741208
+      coins-and-rings_22: 7644862647222607538
+      coins-and-rings_23: -73313338323456740
+      coins-and-rings_24: 1839101199374202408
+      coins-and-rings_25: -7061948476850852458
+      coins-and-rings_26: -6039315652718008736
+      coins-and-rings_27: -391753026455256172
+      coins-and-rings_28: -9361417913764848
+      coins-and-rings_29: 1064322614050562128
+      coins-and-rings_3: -8590501643108891705
+      coins-and-rings_30: 1455552419117416046
+      coins-and-rings_31: 7693800055123886816
+      coins-and-rings_32: 2708668741766618065
+      coins-and-rings_33: 3541738377184900373
+      coins-and-rings_34: -1710901025530431835
+      coins-and-rings_35: 1387868618132400048
+      coins-and-rings_36: 5049455916664167938
+      coins-and-rings_37: -856225467357945459
+      coins-and-rings_38: -2887032300055269082
+      coins-and-rings_39: 1927531570086437594
+      coins-and-rings_4: 4997579417429296476
+      coins-and-rings_40: 4068588936610274472
+      coins-and-rings_41: -4413203193740406451
+      coins-and-rings_42: 2364223481562162895
+      coins-and-rings_43: 1348973857973883620
+      coins-and-rings_44: -7519344856294157922
+      coins-and-rings_45: -5895318935620148033
+      coins-and-rings_46: 4176452281799072273
+      coins-and-rings_47: 251729707795034885
+      coins-and-rings_48: -1423611669322696754
+      coins-and-rings_49: -8936865356315466511
+      coins-and-rings_5: -4645818413491406241
+      coins-and-rings_50: 5191295925917401418
+      coins-and-rings_51: 6303005196270549211
+      coins-and-rings_52: 5039537445721810598
+      coins-and-rings_53: -3819380141718475894
+      coins-and-rings_54: -5339350110178178113
+      coins-and-rings_55: 6386990716783376549
+      coins-and-rings_56: 4213660029269326935
+      coins-and-rings_57: -3298542509101329119
+      coins-and-rings_58: -8753688971172782002
+      coins-and-rings_59: 2323794992123406863
+      coins-and-rings_6: 6389197032595920548
+      coins-and-rings_60: -6207919880207026977
+      coins-and-rings_61: 2298841144787048519
+      coins-and-rings_62: 4288432215161598612
+      coins-and-rings_63: 1178360971499487258
+      coins-and-rings_64: 3345095657644083989
+      coins-and-rings_65: -8646864881740704053
+      coins-and-rings_66: -6342941802979610328
+      coins-and-rings_67: 6938855082212947903
+      coins-and-rings_68: -8769839830570348038
+      coins-and-rings_69: -2730622018264620010
+      coins-and-rings_7: 7201017160207697560
+      coins-and-rings_70: 4492210506350304716
+      coins-and-rings_71: -4134732240347313122
+      coins-and-rings_72: 1724883758969920087
+      coins-and-rings_73: 5411782201584834328
+      coins-and-rings_74: -1871653495775993406
+      coins-and-rings_75: -2635067993455288430
+      coins-and-rings_76: 317302743133637240
+      coins-and-rings_77: -5522993563980747046
+      coins-and-rings_78: 4093884931349873921
+      coins-and-rings_79: 3598007056276455599
+      coins-and-rings_8: -668806709405061254
+      coins-and-rings_80: 5657198792106090550
+      coins-and-rings_81: 1225526380664170732
+      coins-and-rings_82: -3373686753759678672
+      coins-and-rings_83: -7249378259377983249
+      coins-and-rings_84: 5336708642748289356
+      coins-and-rings_85: 4943468499227044362
+      coins-and-rings_86: -1776986394348399033
+      coins-and-rings_87: -2774875563894687365
+      coins-and-rings_88: 4426260435938563877
+      coins-and-rings_89: -8825886692100659249
+      coins-and-rings_9: -3089838830581904741
+      coins-and-rings_90: 53020580691922287
+      coins-and-rings_91: 2864983508247640704
+      coins-and-rings_92: 8284289463562176175
+      coins-and-rings_93: 529843657412464350
+      coins-and-rings_94: -2283166603307194752
+      coins-and-rings_95: -1184598451725780064
+      coins-and-rings_96: 6974853917896387917
+      coins-and-rings_97: -8617944331295589358
+      coins-and-rings_98: -5612470669104099355
+      coins-and-rings_99: 6747942772709094543
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
