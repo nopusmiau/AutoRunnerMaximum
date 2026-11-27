@@ -13,6 +13,7 @@ public class PlayerParryZone : MonoBehaviour
 
     private float parryTimer;
     private float cooldownTimer;
+    public Animator animator;
 
     void Update()
     {
@@ -52,6 +53,7 @@ public class PlayerParryZone : MonoBehaviour
 
         parryTimer = parryDuration;
         cooldownTimer = parryCooldown;
+        animator.SetTrigger("Deflect");
     }
 
     void OnTriggerEnter2D(Collider2D other)

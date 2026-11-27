@@ -9,16 +9,11 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        StartRunning();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        // start running when space is pressed (the same key that starts the background and the obstacles)
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
-            StartRunning();
-        
+    void Update(){
     }
 
     private void StartRunning()
