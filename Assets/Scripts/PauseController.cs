@@ -33,4 +33,14 @@ public class PauseController : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("TitleScene");
     }
+
+    public void QuitGame()
+    {
+        #if UNITY_EDITOR
+                // Application.Quit() does nothing inside the editor, so stop Play mode instead
+                UnityEditor.EditorApplication.isPlaying = false;
+        #else
+                Application.Quit();
+        #endif
+    }
 }
