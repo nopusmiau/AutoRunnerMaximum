@@ -9,6 +9,7 @@ public class LoopBG : MonoBehaviour
     public Renderer renderer;
     private bool isLoop=false;
     
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
