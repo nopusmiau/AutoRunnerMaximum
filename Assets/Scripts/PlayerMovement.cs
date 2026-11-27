@@ -24,10 +24,7 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D box;
     private Animator animator;
 
-    // how many ground or platform objects the player is standing on right now.
-    // We count them because the player can touch two at the same time
-    // (for example the ground and the start of a ramp).
-    private int groundContacts = 0;
+    private bool isGrounded = false;
     private bool isSliding = false;
 
     // counts down after jump is pressed, the jump can happen while it is above 0
@@ -58,9 +55,6 @@ public class PlayerMovement : MonoBehaviour
 
         bool slideHeld = Keyboard.current.sKey.isPressed
                       || Keyboard.current.downArrowKey.isPressed;
-
-        // the player is on the ground if it touches at least one ground or platform object
-        bool isGrounded = groundContacts > 0;
 
         // remember the jump press for a short time
         if (jumpPressed)
@@ -94,6 +88,7 @@ public class PlayerMovement : MonoBehaviour
     {
         // give the player an upward speed, gravity will pull it back down
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        isGrounded = false;
         jumpBufferTimer = 0;
         animator.SetBool("isJumping", true);
         audioManager.PlaySound(0);
@@ -133,10 +128,30 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (IsGroundOrPlatform(collision.gameObject))
+        CheckGroundCollision(collision);
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        CheckGroundCollision(collision);
+    }
+
+    private void CheckGroundCollision(Collision2D collision)
+    {
+        if (!IsGroundOrPlatform(collision.gameObject))
+            return;
+
+        foreach (ContactPoint2D contact in collision.contacts)
         {
-            groundContacts++;
-            animator.SetBool("isJumping", false);
+            // Only count contact with an upward-facing surface
+            if (contact.normal.y > 0.5f &&
+                rb.linearVelocity.y <= 0.1f)
+            {
+                isGrounded = true;
+
+                animator.SetBool("isJumping", false);
+                return;
+            }
         }
     }
 
@@ -144,7 +159,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (IsGroundOrPlatform(collision.gameObject))
         {
-            groundContacts--;
+            isGrounded = false;
         }
     }
 }

@@ -13,6 +13,9 @@ public class Projectile : MonoBehaviour
     [Header("Cleanup")]
     public float destroyBelowY = -10f;
 
+    [Header("Collision Damage")]
+    public int collisionDamage = 1;
+
     private Vector2 direction;
     private float currentSpeed;
 
@@ -82,28 +85,48 @@ public class Projectile : MonoBehaviour
         }
     }
 
+    
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!isReflected)
-            return;
-
-        ShootingEnemy enemy = other.GetComponentInParent<ShootingEnemy>();
-
-        if (enemy != null && enemy.transform == originalShooter)
+        if (isReflected)
         {
-            EnemyHealth health =
-                enemy.GetComponent<EnemyHealth>();
+            // Reflected projectiles can only hit their original shooter
+            ShootingEnemy enemy =
+                other.GetComponentInParent<ShootingEnemy>();
 
-            if (health != null)
+            if (enemy != null && enemy.transform == originalShooter)
             {
-                health.TakeDamage(1);
-            }
-            else
-            {
-                Destroy(enemy.gameObject);
-            }
+                EnemyHealth health = enemy.GetComponent<EnemyHealth>();
 
-            Destroy(gameObject);
+                if (health != null)
+                {
+                    bool dead = health.TakeDamage(collisionDamage);
+
+                    if (dead && ScoreManager.Instance != null)
+                    {
+                        ScoreManager.Instance.AddPoints(150);
+                    }
+                }
+                else
+                {
+                    Destroy(enemy.gameObject);
+                }
+
+                Destroy(gameObject);
+            }
+        }
+        else
+        {
+            EnemyHealth playerHealth =
+                other.GetComponentInParent<EnemyHealth>();
+
+            if (playerHealth != null &&
+                other.GetComponentInParent<ShootingEnemy>() == null)
+            {
+                playerHealth.TakeDamage(collisionDamage);
+                Destroy(gameObject);
+            }
         }
     }
+
 }

@@ -25,6 +25,11 @@ public class EnemySpawner : MonoBehaviour
     [Range(1f, 1.5f)]
     public float spawnViewportX = 1.1f;
 
+    [Header("Score Difficulty")]
+    public int scorePerDifficultyLevel = 500;
+    public int additionalEnemiesPerLevel = 1;
+    public int maxAdditionalEnemies = 4;
+
     private float movingSpawnTimer;
     private float shootingSpawnTimer;
 
@@ -43,9 +48,35 @@ public class EnemySpawner : MonoBehaviour
         HandleShootingEnemies();
     }
 
+    int GetAdditionalEnemies(int enemyType) // 0 = moving, 1 = shooting
+    {
+        if (ScoreManager.Instance == null || scorePerDifficultyLevel <= 0)
+            return 0;
+
+        int difficultyLevel =
+            ScoreManager.Instance.Score / scorePerDifficultyLevel;
+        
+        if (enemyType == 0)
+            return Mathf.Min(
+                difficultyLevel * additionalEnemiesPerLevel,
+                maxAdditionalEnemies
+            );
+        else
+            return Mathf.Min(
+                difficultyLevel * additionalEnemiesPerLevel,
+                maxAdditionalEnemies
+            )/2;
+    }
+
     void HandleMovingEnemies()
     {
-        if (movingEnemyPrefab == null || maxMovingEnemies <= 0)
+        if (movingEnemyPrefab == null)
+            return;
+
+        int currentMaxEnemies =
+            maxMovingEnemies + GetAdditionalEnemies(0);
+
+        if (currentMaxEnemies <= 0)
             return;
 
         movingSpawnTimer -= Time.deltaTime;
@@ -54,7 +85,7 @@ public class EnemySpawner : MonoBehaviour
         {
             int currentCount = FindObjectsByType<MovingEnemy>().Length;
 
-            if (currentCount < maxMovingEnemies)
+            if (currentCount < currentMaxEnemies)
             {
                 SpawnMovingEnemy();
                 ResetMovingTimer();
@@ -64,7 +95,13 @@ public class EnemySpawner : MonoBehaviour
 
     void HandleShootingEnemies()
     {
-        if (shootingEnemyPrefab == null || maxShootingEnemies <= 0)
+        if (shootingEnemyPrefab == null)
+            return;
+
+        int currentMaxEnemies =
+            maxShootingEnemies + GetAdditionalEnemies(1);
+
+        if (currentMaxEnemies <= 0)
             return;
 
         shootingSpawnTimer -= Time.deltaTime;
@@ -73,7 +110,7 @@ public class EnemySpawner : MonoBehaviour
         {
             int currentCount = FindObjectsByType<ShootingEnemy>().Length;
 
-            if (currentCount < maxShootingEnemies)
+            if (currentCount < currentMaxEnemies)
             {
                 SpawnShootingEnemy();
                 ResetShootingTimer();
