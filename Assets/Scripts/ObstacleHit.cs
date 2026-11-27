@@ -3,6 +3,7 @@ using UnityEngine;
 // Put this on every stone prefab (next to its collider, which is NOT a trigger).
 // If the player lands on top of the stone, nothing happens and the player can keep running on it.
 // If the player runs into the side of the stone (or hits it from below), the game ends.
+// If the player has the shield powerup, the stone is smashed instead.
 // Later this can be changed to take away health instead.
 public class ObstacleHit : MonoBehaviour
 {
@@ -27,12 +28,24 @@ public class ObstacleHit : MonoBehaviour
             return;
         }
 
+        // shield powerup: smash the stone and keep running
+        if (PlayerPowerups.Invincible)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Debug.Log("Player hit " + gameObject.name + " - Game Over");
         EndGame();
     }
 
     private void EndGame()
     {
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.StopCounting();
+        }
+
 #if UNITY_EDITOR
         // Application.Quit() does nothing inside the editor, so stop Play mode instead
         UnityEditor.EditorApplication.isPlaying = false;

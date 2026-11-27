@@ -3,7 +3,8 @@ using UnityEngine;
 public enum PowerUpType
 {
     Invincibility,
-    HighJump
+    HighJump,
+    SpeedBoost
 }
 
 // Put this on a powerup prefab (needs a Collider2D with "Is Trigger" ticked).
@@ -14,6 +15,7 @@ public class PowerUp : MonoBehaviour
     public PowerUpType type = PowerUpType.Invincibility;
     public float duration = 5f;          // seconds the effect lasts
     public float jumpMultiplier = 1.3f;  // only used by HighJump
+    public float speedMultiplier = 1.5f; // only used by SpeedBoost
     public int bonusPoints = 0;          // optional points for picking it up
 
     public float speed = 3.6f;           // same as ObstacleMovement
@@ -45,13 +47,17 @@ public class PowerUp : MonoBehaviour
             powerups = player.gameObject.AddComponent<PlayerPowerups>();
         }
 
-        if (type == PowerUpType.Invincibility)
+        switch (type)
         {
-            powerups.ActivateInvincibility(duration);
-        }
-        else
-        {
-            powerups.ActivateHighJump(jumpMultiplier, duration);
+            case PowerUpType.Invincibility:
+                powerups.ActivateInvincibility(duration);
+                break;
+            case PowerUpType.HighJump:
+                powerups.ActivateHighJump(jumpMultiplier, duration);
+                break;
+            case PowerUpType.SpeedBoost:
+                powerups.ActivateSpeedBoost(speedMultiplier, duration);
+                break;
         }
 
         if (bonusPoints > 0 && ScoreManager.Instance != null)

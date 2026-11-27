@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -27,8 +28,18 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded = false;
     private bool isSliding = false;
 
+    // everything the player is currently standing on (ground or the top of a stone).
+    // Keeping a list instead of one true/false means leaving one thing
+    // (e.g. a stone that gets smashed or scrolls away) doesn't cancel standing on another.
+    private readonly HashSet<Collider2D> standingOn = new HashSet<Collider2D>();
+
     // counts down after jump is pressed, the jump can happen while it is above 0
     private float jumpBufferTimer = 0f;
+
+    // right after jumping, ignore the ground for a moment so the player
+    // isn't counted as "still standing" on the frame the jump starts
+    private float ignoreGroundTimer = 0f;
+    private const float IgnoreGroundAfterJump = 0.1f;
 
     // the normal collider size, so we can put it back after sliding
     private Vector2 normalSize;
@@ -46,6 +57,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        UpdateGrounded();
+
         bool jumpPressed = Keyboard.current.spaceKey.wasPressedThisFrame
                         || Keyboard.current.wKey.wasPressedThisFrame
                         || Keyboard.current.upArrowKey.wasPressedThisFrame;
@@ -67,6 +80,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         jumpBufferTimer -= Time.deltaTime;
+        ignoreGroundTimer -= Time.deltaTime;
 
         // you can only start sliding when on the ground
         if (slideHeld && isGrounded && !isSliding)
@@ -81,11 +95,28 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void UpdateGrounded()
+    {
+        // forget stones that were destroyed (smashed by the shield or scrolled off screen)
+        standingOn.RemoveWhere(c => c == null || !c.enabled || !c.gameObject.activeInHierarchy);
+
+        bool wasGrounded = isGrounded;
+        isGrounded = ignoreGroundTimer <= 0f && standingOn.Count > 0;
+
+        // just landed: switch back from the jump animation
+        if (isGrounded && !wasGrounded)
+        {
+            animator.SetBool("isJumping", false);
+        }
+    }
+
     private void Jump()
     {
         // give the player an upward speed, gravity will pull it back down
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         isGrounded = false;
+        standingOn.Clear();
+        ignoreGroundTimer = IgnoreGroundAfterJump;
         jumpBufferTimer = 0;
         animator.SetBool("isJumping", true);
     }
@@ -121,20 +152,38 @@ public class PlayerMovement : MonoBehaviour
         return other.CompareTag("Ground") || other.CompareTag("Stone");
     }
 
+    // true if this contact is underneath the player (not the side of a stone)
+    private bool IsUnderFeet(Collision2D collision)
+    {
+        for (int i = 0; i < collision.contactCount; i++)
+        {
+            if (collision.GetContact(i).normal.y > 0.5f) return true;
+        }
+        return false;
+    }
+
+    private void CheckContact(Collision2D collision)
+    {
+        if (!IsGroundOrStone(collision.gameObject)) return;
+
+        if (IsUnderFeet(collision))
+            standingOn.Add(collision.collider);
+        else
+            standingOn.Remove(collision.collider);
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (IsGroundOrStone(collision.gameObject))
-        {
-            isGrounded = true;
-            animator.SetBool("isJumping", false);
-        }
+        CheckContact(collision);
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        CheckContact(collision);
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (IsGroundOrStone(collision.gameObject))
-        {
-            isGrounded = false;
-        }
+        standingOn.Remove(collision.collider);
     }
 }
