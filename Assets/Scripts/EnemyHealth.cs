@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -6,11 +7,16 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 1;
     public bool isPlayer = false;
 
+    public TMP_Text healthText;
     private int currentHealth;
 
     void Start()
     {
         currentHealth = maxHealth;
+    }
+
+    void Update(){
+        healthText.text = "Health: " + currentHealth;
     }
 
     public bool TakeDamage(int damage)
