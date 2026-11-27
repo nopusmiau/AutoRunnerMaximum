@@ -33,21 +33,27 @@ public class ObstacleSpawner : MonoBehaviour
 
         if (timer <= 0)
         {
-            SpawnObstacle();
-            timer = Random.Range(minSpawnTime, maxSpawnTime);
+            GameObject newObstacle = SpawnObstacle();
+
+            // wide obstacles (like the bridges) need more time to move past
+            // before the next one comes, otherwise two obstacles could overlap
+            float width = newObstacle.GetComponent<SpriteRenderer>().bounds.size.x;
+            float speed = newObstacle.GetComponent<ObstacleMovement>().speed;
+
+            timer = Random.Range(minSpawnTime, maxSpawnTime) + width / speed;
         }
     }
 
-    private void SpawnObstacle()
+    private GameObject SpawnObstacle()
     {
         // pick a random obstacle from the list
         int index = Random.Range(0, obstacles.Length);
         GameObject obstacle = obstacles[index];
 
         // x comes from the spawner, y comes from the prefab
-        // (so rocks stay on the ground and the floating ledge stays in the air)
+        // (so ground obstacles stay on the ground and floating ones stay in the air)
         Vector3 spawnPosition = new Vector3(transform.position.x, obstacle.transform.position.y, 0);
 
-        Instantiate(obstacle, spawnPosition, Quaternion.identity);
+        return Instantiate(obstacle, spawnPosition, Quaternion.identity);
     }
 }
