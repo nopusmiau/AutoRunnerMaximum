@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float jumpForce = 7.5f;
+    public float jumpForce = 9.5f;
     public float jumpBufferTime = 0.2f;
     public float slideHeight = 0.5f;
 
