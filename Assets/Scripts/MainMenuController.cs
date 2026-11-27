@@ -15,7 +15,12 @@ public class MainMenuController : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();
+        #if UNITY_EDITOR
+                // Application.Quit() does nothing inside the editor, so stop Play mode instead
+                UnityEditor.EditorApplication.isPlaying = false;
+        #else
+                Application.Quit();
+        #endif
     }
 
     public void OpenInstructions()

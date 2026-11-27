@@ -25,7 +25,10 @@ public class EnemyHealth : MonoBehaviour
     public bool TakeDamage(int damage)
     {
         currentHealth -= damage;
-        healthText.text = "Health: " + currentHealth;
+        if(isPlayer && currentHealth > 0){
+            audioManager.PlaySound(4);
+            healthText.text = "Health: " + currentHealth;
+        }
 
         if (currentHealth <= 0 && !isPlayer)
         {

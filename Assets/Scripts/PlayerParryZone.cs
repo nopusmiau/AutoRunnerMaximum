@@ -14,10 +14,11 @@ public class PlayerParryZone : MonoBehaviour
     private float parryTimer;
     private float cooldownTimer;
     public Animator animator;
+    public AudioManager audioManager;
 
     void Update()
     {
-        // Detect Space key
+        // Detect E key
         if (Keyboard.current != null &&
             Keyboard.current.eKey.wasPressedThisFrame)
         {
@@ -54,6 +55,7 @@ public class PlayerParryZone : MonoBehaviour
         parryTimer = parryDuration;
         cooldownTimer = parryCooldown;
         animator.SetTrigger("Deflect");
+        audioManager.PlaySound(2);
     }
 
     void OnTriggerEnter2D(Collider2D other)
