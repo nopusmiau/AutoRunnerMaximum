@@ -2,12 +2,29 @@ using UnityEngine;
 
 public class DeadlyObstacle : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D other)
+    public int damage = 1;
+    public float damageCooldown = 1f;
+    private float nextDamageTime;
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.GetComponent<PlayerController>() != null)
+        PlayerController player = collision.gameObject.GetComponent<PlayerController>();
+        if (player == null)
         {
-            Debug.Log("Player touched " + transform.root.name + " - Game Over");
-            GameOver.EndGame();
+            return;
+        }
+        if (Time.time >= nextDamageTime)
+        {
+            EnemyHealth playerHealth =
+                player.GetComponent<EnemyHealth>();
+
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+
+                nextDamageTime = Time.time + damageCooldown;
+
+                Debug.Log("Player hit obstacle: " + gameObject.name);
+            }
         }
     }
 }
