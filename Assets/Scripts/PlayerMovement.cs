@@ -44,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
 
         normalSize = box.size;
         normalOffset = box.offset;
+        animator.SetBool("isRunning",true);
     }
 
     void Update()
