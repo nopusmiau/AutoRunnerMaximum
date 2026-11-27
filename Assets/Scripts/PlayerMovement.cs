@@ -37,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 normalSize;
     private Vector2 normalOffset;
 
+    public AudioManager audioManager;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -45,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
         normalSize = box.size;
         normalOffset = box.offset;
+        animator.SetBool("isRunning",true);
     }
 
     void Update()
@@ -93,12 +96,14 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         jumpBufferTimer = 0;
         animator.SetBool("isJumping", true);
+        audioManager.PlaySound(0);
     }
 
     private void StartSlide()
     {
         isSliding = true;
         animator.SetBool("isSliding", true);
+        audioManager.PlaySound(3);
 
         // make the collider shorter so the player fits under the ledge
         float newHeight = normalSize.y * slideHeight;

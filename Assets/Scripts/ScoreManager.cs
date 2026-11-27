@@ -12,7 +12,7 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private float pointsPerSecond = 10f; 
     [SerializeField] private float scoreMultiplier = 1f;  
 
-    private float score;
+    public float score;
     private bool counting = true;
 
     public int Score => Mathf.FloorToInt(score);
